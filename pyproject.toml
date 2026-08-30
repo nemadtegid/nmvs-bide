@@ -1,0 +1,24 @@
+[project]
+name = "nmvs-bide"
+version = "0.2.0"
+description = "NMVS Business Interligence Data Extractor"
+requires-python = ">=3.11"
+license = "MIT"
+
+dependencies = [
+     "python-dateutil==2.9.0",
+     "six==1.17.0",
+     "pandas==3.0.2",
+     "sqlalchemy==2.0.52",
+     "zeep==4.3.3",
+     "pymysql==1.2.0",
+     "requests==2.34.2"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+# find packages automatically 
+packages = ["nmvs", "nmvs.client", "nmvs.conf", "nmvs.importer"]

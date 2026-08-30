@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info
+*.egg-info/
+
+# Virtual environment
+venv/
+
+# Logs
+logs/
+*.log
+
+# Secrets (extrem wichtig!)
+env/
+.settings
+.secrets.env
+
+# Backup and temp
+*.bak
+*.tmp
+*.env
+
+# MISC
+.DS_Store
